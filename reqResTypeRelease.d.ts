@@ -1478,97 +1478,97 @@ export class RefreshTokenReqBody implements IRefreshTokenReqBody {
     public static getTypeUrl(typeUrlPrefix?: string): string;
 }
 
-/** Properties of a TestReqBody777. */
-export interface ITestReqBody777 {
+/** Properties of a TestReqBody313131. */
+export interface ITestReqBody313131 {
 
-    /** TestReqBody777 testString */
+    /** TestReqBody313131 testString */
     testString?: (string|null);
 }
 
-/** Represents a TestReqBody777. */
-export class TestReqBody777 implements ITestReqBody777 {
+/** Represents a TestReqBody313131. */
+export class TestReqBody313131 implements ITestReqBody313131 {
 
     /**
-     * Constructs a new TestReqBody777.
+     * Constructs a new TestReqBody313131.
      * @param [properties] Properties to set
      */
-    constructor(properties?: ITestReqBody777);
+    constructor(properties?: ITestReqBody313131);
 
-    /** TestReqBody777 testString. */
+    /** TestReqBody313131 testString. */
     public testString: string;
 
     /**
-     * Creates a new TestReqBody777 instance using the specified properties.
+     * Creates a new TestReqBody313131 instance using the specified properties.
      * @param [properties] Properties to set
-     * @returns TestReqBody777 instance
+     * @returns TestReqBody313131 instance
      */
-    public static create(properties?: ITestReqBody777): TestReqBody777;
+    public static create(properties?: ITestReqBody313131): TestReqBody313131;
 
     /**
-     * Encodes the specified TestReqBody777 message. Does not implicitly {@link TestReqBody777.verify|verify} messages.
-     * @param message TestReqBody777 message or plain object to encode
+     * Encodes the specified TestReqBody313131 message. Does not implicitly {@link TestReqBody313131.verify|verify} messages.
+     * @param message TestReqBody313131 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encode(message: ITestReqBody777, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encode(message: ITestReqBody313131, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Encodes the specified TestReqBody777 message, length delimited. Does not implicitly {@link TestReqBody777.verify|verify} messages.
-     * @param message TestReqBody777 message or plain object to encode
+     * Encodes the specified TestReqBody313131 message, length delimited. Does not implicitly {@link TestReqBody313131.verify|verify} messages.
+     * @param message TestReqBody313131 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encodeDelimited(message: ITestReqBody777, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encodeDelimited(message: ITestReqBody313131, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Decodes a TestReqBody777 message from the specified reader or buffer.
+     * Decodes a TestReqBody313131 message from the specified reader or buffer.
      * @param reader Reader or buffer to decode from
      * @param [length] Message length if known beforehand
-     * @returns TestReqBody777
+     * @returns TestReqBody313131
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody777;
+    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody313131;
 
     /**
-     * Decodes a TestReqBody777 message from the specified reader or buffer, length delimited.
+     * Decodes a TestReqBody313131 message from the specified reader or buffer, length delimited.
      * @param reader Reader or buffer to decode from
-     * @returns TestReqBody777
+     * @returns TestReqBody313131
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody777;
+    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody313131;
 
     /**
-     * Verifies a TestReqBody777 message.
+     * Verifies a TestReqBody313131 message.
      * @param message Plain object to verify
      * @returns `null` if valid, otherwise the reason why it is not
      */
     public static verify(message: { [k: string]: any }): (string|null);
 
     /**
-     * Creates a TestReqBody777 message from a plain object. Also converts values to their respective internal types.
+     * Creates a TestReqBody313131 message from a plain object. Also converts values to their respective internal types.
      * @param object Plain object
-     * @returns TestReqBody777
+     * @returns TestReqBody313131
      */
-    public static fromObject(object: { [k: string]: any }): TestReqBody777;
+    public static fromObject(object: { [k: string]: any }): TestReqBody313131;
 
     /**
-     * Creates a plain object from a TestReqBody777 message. Also converts values to other types if specified.
-     * @param message TestReqBody777
+     * Creates a plain object from a TestReqBody313131 message. Also converts values to other types if specified.
+     * @param message TestReqBody313131
      * @param [options] Conversion options
      * @returns Plain object
      */
-    public static toObject(message: TestReqBody777, options?: $protobuf.IConversionOptions): { [k: string]: any };
+    public static toObject(message: TestReqBody313131, options?: $protobuf.IConversionOptions): { [k: string]: any };
 
     /**
-     * Converts this TestReqBody777 to JSON.
+     * Converts this TestReqBody313131 to JSON.
      * @returns JSON object
      */
     public toJSON(): { [k: string]: any };
 
     /**
-     * Gets the default type url for TestReqBody777
+     * Gets the default type url for TestReqBody313131
      * @param [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
      * @returns The default type url
      */
