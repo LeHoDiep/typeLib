@@ -1478,97 +1478,97 @@ export class RefreshTokenReqBody implements IRefreshTokenReqBody {
     public static getTypeUrl(typeUrlPrefix?: string): string;
 }
 
-/** Properties of a TestReqBody101010. */
-export interface ITestReqBody101010 {
+/** Properties of a TestReqBody4444. */
+export interface ITestReqBody4444 {
 
-    /** TestReqBody101010 testString */
+    /** TestReqBody4444 testString */
     testString?: (string|null);
 }
 
-/** Represents a TestReqBody101010. */
-export class TestReqBody101010 implements ITestReqBody101010 {
+/** Represents a TestReqBody4444. */
+export class TestReqBody4444 implements ITestReqBody4444 {
 
     /**
-     * Constructs a new TestReqBody101010.
+     * Constructs a new TestReqBody4444.
      * @param [properties] Properties to set
      */
-    constructor(properties?: ITestReqBody101010);
+    constructor(properties?: ITestReqBody4444);
 
-    /** TestReqBody101010 testString. */
+    /** TestReqBody4444 testString. */
     public testString: string;
 
     /**
-     * Creates a new TestReqBody101010 instance using the specified properties.
+     * Creates a new TestReqBody4444 instance using the specified properties.
      * @param [properties] Properties to set
-     * @returns TestReqBody101010 instance
+     * @returns TestReqBody4444 instance
      */
-    public static create(properties?: ITestReqBody101010): TestReqBody101010;
+    public static create(properties?: ITestReqBody4444): TestReqBody4444;
 
     /**
-     * Encodes the specified TestReqBody101010 message. Does not implicitly {@link TestReqBody101010.verify|verify} messages.
-     * @param message TestReqBody101010 message or plain object to encode
+     * Encodes the specified TestReqBody4444 message. Does not implicitly {@link TestReqBody4444.verify|verify} messages.
+     * @param message TestReqBody4444 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encode(message: ITestReqBody101010, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encode(message: ITestReqBody4444, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Encodes the specified TestReqBody101010 message, length delimited. Does not implicitly {@link TestReqBody101010.verify|verify} messages.
-     * @param message TestReqBody101010 message or plain object to encode
+     * Encodes the specified TestReqBody4444 message, length delimited. Does not implicitly {@link TestReqBody4444.verify|verify} messages.
+     * @param message TestReqBody4444 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encodeDelimited(message: ITestReqBody101010, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encodeDelimited(message: ITestReqBody4444, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Decodes a TestReqBody101010 message from the specified reader or buffer.
+     * Decodes a TestReqBody4444 message from the specified reader or buffer.
      * @param reader Reader or buffer to decode from
      * @param [length] Message length if known beforehand
-     * @returns TestReqBody101010
+     * @returns TestReqBody4444
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody101010;
+    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody4444;
 
     /**
-     * Decodes a TestReqBody101010 message from the specified reader or buffer, length delimited.
+     * Decodes a TestReqBody4444 message from the specified reader or buffer, length delimited.
      * @param reader Reader or buffer to decode from
-     * @returns TestReqBody101010
+     * @returns TestReqBody4444
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody101010;
+    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody4444;
 
     /**
-     * Verifies a TestReqBody101010 message.
+     * Verifies a TestReqBody4444 message.
      * @param message Plain object to verify
      * @returns `null` if valid, otherwise the reason why it is not
      */
     public static verify(message: { [k: string]: any }): (string|null);
 
     /**
-     * Creates a TestReqBody101010 message from a plain object. Also converts values to their respective internal types.
+     * Creates a TestReqBody4444 message from a plain object. Also converts values to their respective internal types.
      * @param object Plain object
-     * @returns TestReqBody101010
+     * @returns TestReqBody4444
      */
-    public static fromObject(object: { [k: string]: any }): TestReqBody101010;
+    public static fromObject(object: { [k: string]: any }): TestReqBody4444;
 
     /**
-     * Creates a plain object from a TestReqBody101010 message. Also converts values to other types if specified.
-     * @param message TestReqBody101010
+     * Creates a plain object from a TestReqBody4444 message. Also converts values to other types if specified.
+     * @param message TestReqBody4444
      * @param [options] Conversion options
      * @returns Plain object
      */
-    public static toObject(message: TestReqBody101010, options?: $protobuf.IConversionOptions): { [k: string]: any };
+    public static toObject(message: TestReqBody4444, options?: $protobuf.IConversionOptions): { [k: string]: any };
 
     /**
-     * Converts this TestReqBody101010 to JSON.
+     * Converts this TestReqBody4444 to JSON.
      * @returns JSON object
      */
     public toJSON(): { [k: string]: any };
 
     /**
-     * Gets the default type url for TestReqBody101010
+     * Gets the default type url for TestReqBody4444
      * @param [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
      * @returns The default type url
      */

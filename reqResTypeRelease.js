@@ -3325,24 +3325,24 @@ export const RefreshTokenReqBody = $root.RefreshTokenReqBody = (() => {
     return RefreshTokenReqBody;
 })();
 
-export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
+export const TestReqBody4444 = $root.TestReqBody4444 = (() => {
 
     /**
-     * Properties of a TestReqBody101010.
-     * @exports ITestReqBody101010
-     * @interface ITestReqBody101010
-     * @property {string|null} [testString] TestReqBody101010 testString
+     * Properties of a TestReqBody4444.
+     * @exports ITestReqBody4444
+     * @interface ITestReqBody4444
+     * @property {string|null} [testString] TestReqBody4444 testString
      */
 
     /**
-     * Constructs a new TestReqBody101010.
-     * @exports TestReqBody101010
-     * @classdesc Represents a TestReqBody101010.
-     * @implements ITestReqBody101010
+     * Constructs a new TestReqBody4444.
+     * @exports TestReqBody4444
+     * @classdesc Represents a TestReqBody4444.
+     * @implements ITestReqBody4444
      * @constructor
-     * @param {ITestReqBody101010=} [properties] Properties to set
+     * @param {ITestReqBody4444=} [properties] Properties to set
      */
-    function TestReqBody101010(properties) {
+    function TestReqBody4444(properties) {
         if (properties)
             for (let keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
@@ -3350,35 +3350,35 @@ export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
     }
 
     /**
-     * TestReqBody101010 testString.
+     * TestReqBody4444 testString.
      * @member {string} testString
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @instance
      */
-    TestReqBody101010.prototype.testString = "";
+    TestReqBody4444.prototype.testString = "";
 
     /**
-     * Creates a new TestReqBody101010 instance using the specified properties.
+     * Creates a new TestReqBody4444 instance using the specified properties.
      * @function create
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
-     * @param {ITestReqBody101010=} [properties] Properties to set
-     * @returns {TestReqBody101010} TestReqBody101010 instance
+     * @param {ITestReqBody4444=} [properties] Properties to set
+     * @returns {TestReqBody4444} TestReqBody4444 instance
      */
-    TestReqBody101010.create = function create(properties) {
-        return new TestReqBody101010(properties);
+    TestReqBody4444.create = function create(properties) {
+        return new TestReqBody4444(properties);
     };
 
     /**
-     * Encodes the specified TestReqBody101010 message. Does not implicitly {@link TestReqBody101010.verify|verify} messages.
+     * Encodes the specified TestReqBody4444 message. Does not implicitly {@link TestReqBody4444.verify|verify} messages.
      * @function encode
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
-     * @param {ITestReqBody101010} message TestReqBody101010 message or plain object to encode
+     * @param {ITestReqBody4444} message TestReqBody4444 message or plain object to encode
      * @param {$protobuf.Writer} [writer] Writer to encode to
      * @returns {$protobuf.Writer} Writer
      */
-    TestReqBody101010.encode = function encode(message, writer) {
+    TestReqBody4444.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.testString != null && Object.hasOwnProperty.call(message, "testString"))
@@ -3387,33 +3387,33 @@ export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
     };
 
     /**
-     * Encodes the specified TestReqBody101010 message, length delimited. Does not implicitly {@link TestReqBody101010.verify|verify} messages.
+     * Encodes the specified TestReqBody4444 message, length delimited. Does not implicitly {@link TestReqBody4444.verify|verify} messages.
      * @function encodeDelimited
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
-     * @param {ITestReqBody101010} message TestReqBody101010 message or plain object to encode
+     * @param {ITestReqBody4444} message TestReqBody4444 message or plain object to encode
      * @param {$protobuf.Writer} [writer] Writer to encode to
      * @returns {$protobuf.Writer} Writer
      */
-    TestReqBody101010.encodeDelimited = function encodeDelimited(message, writer) {
+    TestReqBody4444.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
 
     /**
-     * Decodes a TestReqBody101010 message from the specified reader or buffer.
+     * Decodes a TestReqBody4444 message from the specified reader or buffer.
      * @function decode
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
      * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
      * @param {number} [length] Message length if known beforehand
-     * @returns {TestReqBody101010} TestReqBody101010
+     * @returns {TestReqBody4444} TestReqBody4444
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    TestReqBody101010.decode = function decode(reader, length) {
+    TestReqBody4444.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        let end = length === undefined ? reader.len : reader.pos + length, message = new $root.TestReqBody101010();
+        let end = length === undefined ? reader.len : reader.pos + length, message = new $root.TestReqBody4444();
         while (reader.pos < end) {
             let tag = reader.uint32();
             switch (tag >>> 3) {
@@ -3430,30 +3430,30 @@ export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
     };
 
     /**
-     * Decodes a TestReqBody101010 message from the specified reader or buffer, length delimited.
+     * Decodes a TestReqBody4444 message from the specified reader or buffer, length delimited.
      * @function decodeDelimited
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
      * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
-     * @returns {TestReqBody101010} TestReqBody101010
+     * @returns {TestReqBody4444} TestReqBody4444
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    TestReqBody101010.decodeDelimited = function decodeDelimited(reader) {
+    TestReqBody4444.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
 
     /**
-     * Verifies a TestReqBody101010 message.
+     * Verifies a TestReqBody4444 message.
      * @function verify
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
      * @param {Object.<string,*>} message Plain object to verify
      * @returns {string|null} `null` if valid, otherwise the reason why it is not
      */
-    TestReqBody101010.verify = function verify(message) {
+    TestReqBody4444.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.testString != null && message.hasOwnProperty("testString"))
@@ -3463,32 +3463,32 @@ export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
     };
 
     /**
-     * Creates a TestReqBody101010 message from a plain object. Also converts values to their respective internal types.
+     * Creates a TestReqBody4444 message from a plain object. Also converts values to their respective internal types.
      * @function fromObject
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
      * @param {Object.<string,*>} object Plain object
-     * @returns {TestReqBody101010} TestReqBody101010
+     * @returns {TestReqBody4444} TestReqBody4444
      */
-    TestReqBody101010.fromObject = function fromObject(object) {
-        if (object instanceof $root.TestReqBody101010)
+    TestReqBody4444.fromObject = function fromObject(object) {
+        if (object instanceof $root.TestReqBody4444)
             return object;
-        let message = new $root.TestReqBody101010();
+        let message = new $root.TestReqBody4444();
         if (object.testString != null)
             message.testString = String(object.testString);
         return message;
     };
 
     /**
-     * Creates a plain object from a TestReqBody101010 message. Also converts values to other types if specified.
+     * Creates a plain object from a TestReqBody4444 message. Also converts values to other types if specified.
      * @function toObject
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
-     * @param {TestReqBody101010} message TestReqBody101010
+     * @param {TestReqBody4444} message TestReqBody4444
      * @param {$protobuf.IConversionOptions} [options] Conversion options
      * @returns {Object.<string,*>} Plain object
      */
-    TestReqBody101010.toObject = function toObject(message, options) {
+    TestReqBody4444.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         let object = {};
@@ -3500,32 +3500,32 @@ export const TestReqBody101010 = $root.TestReqBody101010 = (() => {
     };
 
     /**
-     * Converts this TestReqBody101010 to JSON.
+     * Converts this TestReqBody4444 to JSON.
      * @function toJSON
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @instance
      * @returns {Object.<string,*>} JSON object
      */
-    TestReqBody101010.prototype.toJSON = function toJSON() {
+    TestReqBody4444.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
 
     /**
-     * Gets the default type url for TestReqBody101010
+     * Gets the default type url for TestReqBody4444
      * @function getTypeUrl
-     * @memberof TestReqBody101010
+     * @memberof TestReqBody4444
      * @static
      * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
      * @returns {string} The default type url
      */
-    TestReqBody101010.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+    TestReqBody4444.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
         if (typeUrlPrefix === undefined) {
             typeUrlPrefix = "type.googleapis.com";
         }
-        return typeUrlPrefix + "/TestReqBody101010";
+        return typeUrlPrefix + "/TestReqBody4444";
     };
 
-    return TestReqBody101010;
+    return TestReqBody4444;
 })();
 
 export const UserVerifyStatus = $root.UserVerifyStatus = (() => {
