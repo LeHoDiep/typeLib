@@ -3325,24 +3325,24 @@ export const RefreshTokenReqBody = $root.RefreshTokenReqBody = (() => {
     return RefreshTokenReqBody;
 })();
 
-export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
+export const TestReqBodyLeDiep60 = $root.TestReqBodyLeDiep60 = (() => {
 
     /**
-     * Properties of a TestReqBodyLeDiep.
-     * @exports ITestReqBodyLeDiep
-     * @interface ITestReqBodyLeDiep
-     * @property {string|null} [testString] TestReqBodyLeDiep testString
+     * Properties of a TestReqBodyLeDiep60.
+     * @exports ITestReqBodyLeDiep60
+     * @interface ITestReqBodyLeDiep60
+     * @property {string|null} [testString] TestReqBodyLeDiep60 testString
      */
 
     /**
-     * Constructs a new TestReqBodyLeDiep.
-     * @exports TestReqBodyLeDiep
-     * @classdesc Represents a TestReqBodyLeDiep.
-     * @implements ITestReqBodyLeDiep
+     * Constructs a new TestReqBodyLeDiep60.
+     * @exports TestReqBodyLeDiep60
+     * @classdesc Represents a TestReqBodyLeDiep60.
+     * @implements ITestReqBodyLeDiep60
      * @constructor
-     * @param {ITestReqBodyLeDiep=} [properties] Properties to set
+     * @param {ITestReqBodyLeDiep60=} [properties] Properties to set
      */
-    function TestReqBodyLeDiep(properties) {
+    function TestReqBodyLeDiep60(properties) {
         if (properties)
             for (let keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
@@ -3350,35 +3350,35 @@ export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
     }
 
     /**
-     * TestReqBodyLeDiep testString.
+     * TestReqBodyLeDiep60 testString.
      * @member {string} testString
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @instance
      */
-    TestReqBodyLeDiep.prototype.testString = "";
+    TestReqBodyLeDiep60.prototype.testString = "";
 
     /**
-     * Creates a new TestReqBodyLeDiep instance using the specified properties.
+     * Creates a new TestReqBodyLeDiep60 instance using the specified properties.
      * @function create
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
-     * @param {ITestReqBodyLeDiep=} [properties] Properties to set
-     * @returns {TestReqBodyLeDiep} TestReqBodyLeDiep instance
+     * @param {ITestReqBodyLeDiep60=} [properties] Properties to set
+     * @returns {TestReqBodyLeDiep60} TestReqBodyLeDiep60 instance
      */
-    TestReqBodyLeDiep.create = function create(properties) {
-        return new TestReqBodyLeDiep(properties);
+    TestReqBodyLeDiep60.create = function create(properties) {
+        return new TestReqBodyLeDiep60(properties);
     };
 
     /**
-     * Encodes the specified TestReqBodyLeDiep message. Does not implicitly {@link TestReqBodyLeDiep.verify|verify} messages.
+     * Encodes the specified TestReqBodyLeDiep60 message. Does not implicitly {@link TestReqBodyLeDiep60.verify|verify} messages.
      * @function encode
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
-     * @param {ITestReqBodyLeDiep} message TestReqBodyLeDiep message or plain object to encode
+     * @param {ITestReqBodyLeDiep60} message TestReqBodyLeDiep60 message or plain object to encode
      * @param {$protobuf.Writer} [writer] Writer to encode to
      * @returns {$protobuf.Writer} Writer
      */
-    TestReqBodyLeDiep.encode = function encode(message, writer) {
+    TestReqBodyLeDiep60.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.testString != null && Object.hasOwnProperty.call(message, "testString"))
@@ -3387,33 +3387,33 @@ export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
     };
 
     /**
-     * Encodes the specified TestReqBodyLeDiep message, length delimited. Does not implicitly {@link TestReqBodyLeDiep.verify|verify} messages.
+     * Encodes the specified TestReqBodyLeDiep60 message, length delimited. Does not implicitly {@link TestReqBodyLeDiep60.verify|verify} messages.
      * @function encodeDelimited
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
-     * @param {ITestReqBodyLeDiep} message TestReqBodyLeDiep message or plain object to encode
+     * @param {ITestReqBodyLeDiep60} message TestReqBodyLeDiep60 message or plain object to encode
      * @param {$protobuf.Writer} [writer] Writer to encode to
      * @returns {$protobuf.Writer} Writer
      */
-    TestReqBodyLeDiep.encodeDelimited = function encodeDelimited(message, writer) {
+    TestReqBodyLeDiep60.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
 
     /**
-     * Decodes a TestReqBodyLeDiep message from the specified reader or buffer.
+     * Decodes a TestReqBodyLeDiep60 message from the specified reader or buffer.
      * @function decode
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
      * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
      * @param {number} [length] Message length if known beforehand
-     * @returns {TestReqBodyLeDiep} TestReqBodyLeDiep
+     * @returns {TestReqBodyLeDiep60} TestReqBodyLeDiep60
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    TestReqBodyLeDiep.decode = function decode(reader, length) {
+    TestReqBodyLeDiep60.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        let end = length === undefined ? reader.len : reader.pos + length, message = new $root.TestReqBodyLeDiep();
+        let end = length === undefined ? reader.len : reader.pos + length, message = new $root.TestReqBodyLeDiep60();
         while (reader.pos < end) {
             let tag = reader.uint32();
             switch (tag >>> 3) {
@@ -3430,30 +3430,30 @@ export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
     };
 
     /**
-     * Decodes a TestReqBodyLeDiep message from the specified reader or buffer, length delimited.
+     * Decodes a TestReqBodyLeDiep60 message from the specified reader or buffer, length delimited.
      * @function decodeDelimited
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
      * @param {$protobuf.Reader|Uint8Array} reader Reader or buffer to decode from
-     * @returns {TestReqBodyLeDiep} TestReqBodyLeDiep
+     * @returns {TestReqBodyLeDiep60} TestReqBodyLeDiep60
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    TestReqBodyLeDiep.decodeDelimited = function decodeDelimited(reader) {
+    TestReqBodyLeDiep60.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
 
     /**
-     * Verifies a TestReqBodyLeDiep message.
+     * Verifies a TestReqBodyLeDiep60 message.
      * @function verify
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
      * @param {Object.<string,*>} message Plain object to verify
      * @returns {string|null} `null` if valid, otherwise the reason why it is not
      */
-    TestReqBodyLeDiep.verify = function verify(message) {
+    TestReqBodyLeDiep60.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.testString != null && message.hasOwnProperty("testString"))
@@ -3463,32 +3463,32 @@ export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
     };
 
     /**
-     * Creates a TestReqBodyLeDiep message from a plain object. Also converts values to their respective internal types.
+     * Creates a TestReqBodyLeDiep60 message from a plain object. Also converts values to their respective internal types.
      * @function fromObject
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
      * @param {Object.<string,*>} object Plain object
-     * @returns {TestReqBodyLeDiep} TestReqBodyLeDiep
+     * @returns {TestReqBodyLeDiep60} TestReqBodyLeDiep60
      */
-    TestReqBodyLeDiep.fromObject = function fromObject(object) {
-        if (object instanceof $root.TestReqBodyLeDiep)
+    TestReqBodyLeDiep60.fromObject = function fromObject(object) {
+        if (object instanceof $root.TestReqBodyLeDiep60)
             return object;
-        let message = new $root.TestReqBodyLeDiep();
+        let message = new $root.TestReqBodyLeDiep60();
         if (object.testString != null)
             message.testString = String(object.testString);
         return message;
     };
 
     /**
-     * Creates a plain object from a TestReqBodyLeDiep message. Also converts values to other types if specified.
+     * Creates a plain object from a TestReqBodyLeDiep60 message. Also converts values to other types if specified.
      * @function toObject
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
-     * @param {TestReqBodyLeDiep} message TestReqBodyLeDiep
+     * @param {TestReqBodyLeDiep60} message TestReqBodyLeDiep60
      * @param {$protobuf.IConversionOptions} [options] Conversion options
      * @returns {Object.<string,*>} Plain object
      */
-    TestReqBodyLeDiep.toObject = function toObject(message, options) {
+    TestReqBodyLeDiep60.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         let object = {};
@@ -3500,32 +3500,32 @@ export const TestReqBodyLeDiep = $root.TestReqBodyLeDiep = (() => {
     };
 
     /**
-     * Converts this TestReqBodyLeDiep to JSON.
+     * Converts this TestReqBodyLeDiep60 to JSON.
      * @function toJSON
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @instance
      * @returns {Object.<string,*>} JSON object
      */
-    TestReqBodyLeDiep.prototype.toJSON = function toJSON() {
+    TestReqBodyLeDiep60.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
 
     /**
-     * Gets the default type url for TestReqBodyLeDiep
+     * Gets the default type url for TestReqBodyLeDiep60
      * @function getTypeUrl
-     * @memberof TestReqBodyLeDiep
+     * @memberof TestReqBodyLeDiep60
      * @static
      * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
      * @returns {string} The default type url
      */
-    TestReqBodyLeDiep.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+    TestReqBodyLeDiep60.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
         if (typeUrlPrefix === undefined) {
             typeUrlPrefix = "type.googleapis.com";
         }
-        return typeUrlPrefix + "/TestReqBodyLeDiep";
+        return typeUrlPrefix + "/TestReqBodyLeDiep60";
     };
 
-    return TestReqBodyLeDiep;
+    return TestReqBodyLeDiep60;
 })();
 
 export const UserVerifyStatus = $root.UserVerifyStatus = (() => {
