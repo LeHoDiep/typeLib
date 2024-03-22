@@ -1478,97 +1478,97 @@ export class RefreshTokenReqBody implements IRefreshTokenReqBody {
     public static getTypeUrl(typeUrlPrefix?: string): string;
 }
 
-/** Properties of a TestReqBody11. */
-export interface ITestReqBody11 {
+/** Properties of a TestReqBody21. */
+export interface ITestReqBody21 {
 
-    /** TestReqBody11 testString */
+    /** TestReqBody21 testString */
     testString?: (string|null);
 }
 
-/** Represents a TestReqBody11. */
-export class TestReqBody11 implements ITestReqBody11 {
+/** Represents a TestReqBody21. */
+export class TestReqBody21 implements ITestReqBody21 {
 
     /**
-     * Constructs a new TestReqBody11.
+     * Constructs a new TestReqBody21.
      * @param [properties] Properties to set
      */
-    constructor(properties?: ITestReqBody11);
+    constructor(properties?: ITestReqBody21);
 
-    /** TestReqBody11 testString. */
+    /** TestReqBody21 testString. */
     public testString: string;
 
     /**
-     * Creates a new TestReqBody11 instance using the specified properties.
+     * Creates a new TestReqBody21 instance using the specified properties.
      * @param [properties] Properties to set
-     * @returns TestReqBody11 instance
+     * @returns TestReqBody21 instance
      */
-    public static create(properties?: ITestReqBody11): TestReqBody11;
+    public static create(properties?: ITestReqBody21): TestReqBody21;
 
     /**
-     * Encodes the specified TestReqBody11 message. Does not implicitly {@link TestReqBody11.verify|verify} messages.
-     * @param message TestReqBody11 message or plain object to encode
+     * Encodes the specified TestReqBody21 message. Does not implicitly {@link TestReqBody21.verify|verify} messages.
+     * @param message TestReqBody21 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encode(message: ITestReqBody11, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encode(message: ITestReqBody21, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Encodes the specified TestReqBody11 message, length delimited. Does not implicitly {@link TestReqBody11.verify|verify} messages.
-     * @param message TestReqBody11 message or plain object to encode
+     * Encodes the specified TestReqBody21 message, length delimited. Does not implicitly {@link TestReqBody21.verify|verify} messages.
+     * @param message TestReqBody21 message or plain object to encode
      * @param [writer] Writer to encode to
      * @returns Writer
      */
-    public static encodeDelimited(message: ITestReqBody11, writer?: $protobuf.Writer): $protobuf.Writer;
+    public static encodeDelimited(message: ITestReqBody21, writer?: $protobuf.Writer): $protobuf.Writer;
 
     /**
-     * Decodes a TestReqBody11 message from the specified reader or buffer.
+     * Decodes a TestReqBody21 message from the specified reader or buffer.
      * @param reader Reader or buffer to decode from
      * @param [length] Message length if known beforehand
-     * @returns TestReqBody11
+     * @returns TestReqBody21
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody11;
+    public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): TestReqBody21;
 
     /**
-     * Decodes a TestReqBody11 message from the specified reader or buffer, length delimited.
+     * Decodes a TestReqBody21 message from the specified reader or buffer, length delimited.
      * @param reader Reader or buffer to decode from
-     * @returns TestReqBody11
+     * @returns TestReqBody21
      * @throws {Error} If the payload is not a reader or valid buffer
      * @throws {$protobuf.util.ProtocolError} If required fields are missing
      */
-    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody11;
+    public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): TestReqBody21;
 
     /**
-     * Verifies a TestReqBody11 message.
+     * Verifies a TestReqBody21 message.
      * @param message Plain object to verify
      * @returns `null` if valid, otherwise the reason why it is not
      */
     public static verify(message: { [k: string]: any }): (string|null);
 
     /**
-     * Creates a TestReqBody11 message from a plain object. Also converts values to their respective internal types.
+     * Creates a TestReqBody21 message from a plain object. Also converts values to their respective internal types.
      * @param object Plain object
-     * @returns TestReqBody11
+     * @returns TestReqBody21
      */
-    public static fromObject(object: { [k: string]: any }): TestReqBody11;
+    public static fromObject(object: { [k: string]: any }): TestReqBody21;
 
     /**
-     * Creates a plain object from a TestReqBody11 message. Also converts values to other types if specified.
-     * @param message TestReqBody11
+     * Creates a plain object from a TestReqBody21 message. Also converts values to other types if specified.
+     * @param message TestReqBody21
      * @param [options] Conversion options
      * @returns Plain object
      */
-    public static toObject(message: TestReqBody11, options?: $protobuf.IConversionOptions): { [k: string]: any };
+    public static toObject(message: TestReqBody21, options?: $protobuf.IConversionOptions): { [k: string]: any };
 
     /**
-     * Converts this TestReqBody11 to JSON.
+     * Converts this TestReqBody21 to JSON.
      * @returns JSON object
      */
     public toJSON(): { [k: string]: any };
 
     /**
-     * Gets the default type url for TestReqBody11
+     * Gets the default type url for TestReqBody21
      * @param [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
      * @returns The default type url
      */
